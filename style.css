@@ -1,0 +1,94 @@
+.container {
+    display: flex;
+}
+
+
+.image {
+    width: 40vw;
+    height: 100vh;
+    /* background-image: linear-gradient(rgb(35, 37, 8), rgb(48, 51, 17)); */
+    text-align: center;
+    background-image: url("cole-keister-nfxIvG2B62I-unsplash.jpg");
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.presentation, .form, .account {
+    height: 33vh;
+    width: 60vw;
+    padding: 0 40px;
+    min-height: 200px;
+    font-size: larger;
+}
+
+.motto {
+    margin-top: 110px;
+    font-size: 24px;
+}
+
+.form {
+   box-shadow: 0px 2px 5px rgb(127, 139, 131); 
+}
+
+form {
+    display: flex;
+    gap: 20px
+}
+
+input, label {
+    display: block;
+    
+}
+
+input {
+    font-size: large;
+    border-radius: 5px;
+    border: 2px solid rgb(134, 148, 101);
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+input:invalid {
+  border-color: rgb(185, 31, 52);
+}
+
+input:valid {
+  border-color: rgb(50, 116, 72);
+}
+
+input:focus {
+    background: rgb(211, 243, 243);
+}
+.logo-container {
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.904);
+    padding: 30px;
+}
+/* .logo {
+    color: rgb(243, 234, 194);
+    padding: 20px 50px;
+    font-size: 48px;
+    font-weight: bolder;
+    background-image: url("odin-lined.png");
+    padding: 20px;
+    margin: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+} */
+
+.btn {
+    background-color: rgb(34, 59, 37);
+    color: rgb(229, 233, 210);
+    padding: 10px 20px;
+    margin-top: 30px;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
